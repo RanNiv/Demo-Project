@@ -5,16 +5,28 @@
 
 .navbar  {
 
-background-color: whitesmoke;
+background-image: url("../../assets/images/angular1.jpg");
 font-weight: 500;
 font-size: 1.4em;
-color:midnightblue;
 font-family: 'El Messiri', sans-serif;
 
+
+}
+
+
+a {
+
+color:rgb(212, 221, 233);
+
+
 }
 
 
-.navbar-header {
-    color:midnightblue;
-
+.navbar-header .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color:whitesmoke;
+    color:blue;
 }
+
+
+
+
