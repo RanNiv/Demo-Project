@@ -12,7 +12,7 @@ import { promise } from '../../node_modules/protractor';
 })
 export class DataService {
 
-  private rssurl:string="http://rss.walla.co.il/feed/2686";
+  private rssurl:string="http://rss.walla.co.il/feed/22";
 
   private rssToJsonServiceBaseUrl: string;
   result:MainFeed;

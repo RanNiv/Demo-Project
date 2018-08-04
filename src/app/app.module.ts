@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import {HttpClientModule} from '@angular/common/http';
 import { HomepageComponent } from './homepage/homepage.component';
 import { MainComponent } from './main/main.component';
+import { NewsComponent } from './news/news.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
-    MainComponent
+    MainComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,
